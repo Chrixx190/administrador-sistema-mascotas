@@ -1,0 +1,74 @@
+body{
+  width: 100%;
+  height: 100vh;
+}
+.App{
+  margin: 0;
+  padding: 0;
+}
+
+.App .inicio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App .inicio .col-md-6{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App .container .inicio .card{
+  border-radius: 20px;
+  border: none;
+  width: 80%;
+  background-color: #97979710;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.App .container .inicio .card h2{
+  font-family: 'Akshar', sans-serif;
+  color: #b8a5a9;
+  padding: 20px 35px 0px 35px;
+  text-align: center;
+}
+
+.App .container .inicio .card .input-group{
+  padding: 10px 35px; 
+}
+
+.App .container .inicio .card .input-group span{
+  background-color: white;
+  border: none;
+  
+}
+
+.App .container .inicio .card .input-group input{
+  font-family: 'Lato', sans-serif;
+  border: none;
+  transition: 0.5s;
+  height: 50px;
+}
+
+.App .container .inicio .card .input-group input:focus{
+  box-shadow: none;
+  outline: none;
+  border: 0.5px solid rgb(255, 255, 255);
+  border-radius: 0px;
+  transition: 0.5s;
+  border: none;
+}
+
+.App .container .inicio .card .boton-enviar{
+  text-align: center;
+  padding: 20px 0;
+}
+.App .container .inicio .card .boton-enviar button{
+  background-color: #E9D5DA;
+  width: 150px;
+  height: 50px;
+  font-size: 25px;
+  padding: 0;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+}
